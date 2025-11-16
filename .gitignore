@@ -1,0 +1,30 @@
+# -------- Build- und Binärordner --------
+/bin/
+/app/bin/
+/app/build/
+/build/
+
+# -------- Gradle Cache --------
+.gradle/
+
+# -------- VS Code Einstellungen --------
+.vscode/
+
+# -------- IDE-spezifisch --------
+.idea/
+
+# -------- Systemdateien --------
+.DS_Store
+Thumbs.db
+
+# -------- Logs --------
+*.log
+
+# -------- Temporäre Dateien --------
+*.tmp
+*.temp
+
+# -------- Sonstiges --------
+*.class
+# *.jar
+
