@@ -4,17 +4,6 @@ A JavaFX project where users can draw an object, and a neural network tries to r
 
 ---
 
-## Team
-
-- Mohammad Elayan
-- Mohammed Al-shami
-- Dilshod Jabborov
-- Taeb Al-Areqi
-
-**Tutor:** Jonas Backhaus
-
----
-
 ## Features
 
 - Mouse-based drawing area (JavaFX GUI)
@@ -50,27 +39,20 @@ java -jar montagsmaler-fat.jar
 
 ## Folder Structure
 
-Abgabe/
-  │───montagsmaler-fat.jar
-  │───Montagsmaler.pptx
-  │───README.md
-  │
-  ├───controller
-  │
-  ├───model
-  │   │
-  │   └───Data
-  │       │
-  │       ├───apple
-  │       │
-  │       ├───candle
-  │       ├───eyeglasses
-  │       │
-  │       ├───fork
-  │       │
-  │       └───star
-  │
-  └───view
+Montagsmaler/
+├── src/
+│   ├── controller/
+│   ├── model/
+│   │   └── Data/
+│   │       ├── apple/
+│   │       ├── candle/
+│   │       ├── eyeglasses/
+│   │       ├── fork/
+│   │       └── star/
+│   └── view/
+├── README.md
+│───montagsmaler-fat.jar
+└── .gitignore
   
 ---
 
