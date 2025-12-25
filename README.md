@@ -52,7 +52,8 @@ Montagsmaler/
 ├── README.md            # Project documentation
 └── .gitignore           # Files to be ignored by Git
   
----
+```
+
 
 ## Data
 
