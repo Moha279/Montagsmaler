@@ -39,20 +39,18 @@ java -jar montagsmaler-fat.jar
 
 ## Folder Structure
 
+The project follows the MVC (Model-View-Controller) design pattern for clear separation of concerns:
+
+```text
 Montagsmaler/
 ├── src/
-│   ├── controller/
-│   ├── model/
-│   │   └── Data/
-│   │       ├── apple/
-│   │       ├── candle/
-│   │       ├── eyeglasses/
-│   │       ├── fork/
-│   │       └── star/
-│   └── view/
-├── README.md
-│───montagsmaler-fat.jar
-└── .gitignore
+│   ├── controller/      # Logic for handling user input and coordinating Model & View
+│   ├── model/           # Data processing and Neural Network logic
+│   │   └── Data/        # Dataset for training (classes: apple, candle, eyeglasses, etc.)
+│   └── view/            # GUI components and user interface
+├── montagsmaler-fat.jar # Executable application
+├── README.md            # Project documentation
+└── .gitignore           # Files to be ignored by Git
   
 ---
 
